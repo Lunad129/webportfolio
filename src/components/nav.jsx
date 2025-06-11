@@ -13,8 +13,8 @@ const nav = () => {
             <a href="#my" className="  text-white hover:bg-blue-900 rounded-full px-5 py-2 text-xl">Home</a>
             <a href="#about" className="  text-white hover:bg-blue-900 rounded-full px-5 py-2 text-xl">About</a>
             <a href="#skills" className="  text-white hover:bg-blue-900 rounded-full px-5 py-2 text-xl">Skills</a>
-            <a href="#" className="text-white hover:bg-blue-900 rounded-full px-5 py-2 text-xl">Projects</a>
-            <a href="#" className="text-white hover:bg-blue-900 rounded-full px-5 py-2 text-xl">Contact</a>
+            <a href="#projects" className="text-white hover:bg-blue-900 rounded-full px-5 py-2 text-xl">Projects</a>
+            <a href="#contact" className="text-white hover:bg-blue-900 rounded-full px-5 py-2 text-xl">Contact</a>
 
     </div>
     </div>
