@@ -17,29 +17,6 @@ const about = () => {
           </p>
         </div>
 
-         
-
-     
-
-        {/*div className="flex flex-col justify-center items-center gap-10 w-full">
-            <div className="bg-blue-950  rounded-xl shadow-lg p-15 w-[500px] flex flex-col items-center border-amber-50 border-2 transition duration-300 transform hover:scale-105 hover:border-blue-900">
-              <h1 className=" text-center font-mono text-2xl text-amber-50">Education </h1> 
-              <FaGraduationCap className="text-2xl text-amber-100"/>
-              <p className=" text-center font-mono text-xl text-amber-50">Information & Communication Technology undergraduate at Uva Wellassa University</p>
-            </div>
-
-            <div className="bg-blue-950  rounded-xl shadow-lg p-15 w-[500px] flex flex-col items-center  border-amber-50 border-2 transition duration-300 transform hover:scale-105 hover:border-blue-900">
-                <h1 className=" text-center font-mono text-2xl text-amber-50">Frontend Development</h1> 
-                <BiCodeAlt className="text-2xl text-amber-100"/>
-                <p className=" text-center font-mono text-xl text-amber-50">Skilled in building responsive UIs using React, Tailwind CSS, and modern JavaScript</p>
-           </div>
-
-           <div className="bg-blue-950  rounded-xl shadow-lg p-15 w-[500px] flex flex-col items-center  border-amber-50 border-2 transition duration-300 transform hover:scale-105 hover:border-blue-900">
-              <h1 className=" text-center font-mono text-2xl text-amber-50">Quality Assurance</h1>  
-              <MdVerified className="text-2xl text-amber-100"/>
-              <p className=" text-center font-mono text-xl text-amber-50">Passionate about testing and validation to ensure performance, accessibility, and bug-free functionality</p>
-           </div>
-        </div>*/}
          {/*first row*/}
          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-7xl mt-10">
 
