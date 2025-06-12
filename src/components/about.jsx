@@ -8,7 +8,7 @@ const about = () => {
   return (
     <>
     <section id="about" className="bg-cyan-900 flex flex-col justify-center items-center min-h-[40vh]">
-          <h1 className="font-mono text-amber-50 text-3xl text-center mb-6 font-bold">About Me</h1>
+          <h1 className="font-mono text-amber-50 text-3xl text-center mb-6 font-bold mt-17">About Me</h1>
           <br></br>
 
         <div className="bg-cyan-950/70 backdrop-blur-md rounded-2xl shadow-2xl p-10 w-full max-w-4xl mx-auto border border-cyan-800">
