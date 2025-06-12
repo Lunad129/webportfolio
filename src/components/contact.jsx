@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin, FaPhoneAlt } from "react-icons/fa";
 import React, { useRef, useState } from 'react'
 import emailjs from 'emailjs-com';
 
-const contact = () => {
+const Contact = () => {
   const form = useRef();
   const [sent, setSent] = useState(false);
 
@@ -14,10 +14,10 @@ const contact = () => {
       'template_3ftbxai',
       form.current,
       'izwsp8znjwg0vD98W'
-    ).then((result) => {
+    ).then(() => {
       setSent(true);
       form.current.reset();
-    }, (error) => {
+    }, () => {
       alert('Failed to send message. Please try again.');
     });
   };
@@ -92,4 +92,4 @@ const contact = () => {
   )
 }
 
-export default contact
+export default Contact
