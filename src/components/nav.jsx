@@ -1,24 +1,55 @@
-//import { FaMoon } from 'react-icons/fa';
+import React, { useState, useEffect } from 'react';
 
-const nav = () => {
+const Nav = () => {
+  const [activeSection, setActiveSection] = useState('my');
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const sections = ['my', 'about', 'skills', 'projects', 'contact'];
+      let current = 'my';
+      for (let section of sections) {
+        const el = document.getElementById(section);
+        if (el) {
+          const rect = el.getBoundingClientRect();
+          if (rect.top <= 80) {
+            current = section;
+          }
+        }
+      }
+      setActiveSection(current);
+    };
+
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  const navLinks = [
+    { id: 'my', label: 'Home' },
+    { id: 'about', label: 'About' },
+    { id: 'skills', label: 'Skills' },
+    { id: 'projects', label: 'Projects' },
+    { id: 'contact', label: 'Contact' },
+  ];
+
   return (
-    <>
-    <div>
- <div  className="bg-cyan-900 flex flex-col items-center p-10 text-white font-mono text-5xl "> 
-      
-       
-    <div className="space-x-4 font-mono text-2xl flex justify-center">
-            <a href="#my" className="  text-white hover:bg-cyan-600 rounded-full px-5 py-2 text-xl">Home</a>
-            <a href="#about" className="  text-white hover:bg-cyan-600 rounded-full px-5 py-2 text-xl">About</a>
-            <a href="#skills" className="  text-white hover:bg-cyan-600 rounded-full px-5 py-2 text-xl">Skills</a>
-            <a href="#projects" className="text-white hover:bg-cyan-600 rounded-full px-5 py-2 text-xl">Projects</a>
-            <a href="#contact" className="text-white hover:bg-cyan-600 rounded-full px-5 py-2 text-xl">Contact</a>
+    <div className="fixed top-0 left-0 w-full z-50 bg-cyan-900 flex flex-col items-center p-6 text-white font-mono">
+      <div className="space-x-4 text-2xl flex justify-center">
+        {navLinks.map(link => (
+          <a
+            key={link.id}
+            href={`#${link.id}`}
+            className={`rounded-full px-5 py-2 text-xl transition-colors duration-200 ${
+              activeSection === link.id
+                ? 'bg-cyan-600 text-white'
+                : 'text-white hover:bg-cyan-600'
+            }`}
+          >
+            {link.label}
+          </a>
+        ))}
+      </div>
+    </div>
+  );
+};
 
-    </div>
-    </div>
-  
-    </div>
-    </>
-  )
-}
-export default nav
+export default Nav;
