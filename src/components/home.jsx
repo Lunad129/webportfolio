@@ -7,7 +7,7 @@ import { FaFileDownload } from "react-icons/fa";
 
 const home = () => {
   return (
-    <section id="my" className='bg-cyan-900 flex justify-around items-center p-10 space-x-10 lg:flex-row ssm:flex-col ssm:space-y-10 text-white font-mono'>
+    <section id="my" className='bg-cyan-900 flex justify-around items-center p-10 space-x-10 lg:flex-row ssm:flex-col ssm:space-y-10 text-white font-mono mt-20 '>
         <div>
         <p className="text-2xl">I'm</p>
         <h1 className="text-4xl font-bold">Dulani Hemachandra</h1>
