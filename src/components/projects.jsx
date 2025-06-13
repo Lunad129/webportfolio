@@ -45,12 +45,12 @@ const projects = () => {
 
           <p className="text-amber-50 mb-4">Foodies is a modern food delivery app prototype designed in Figma. It focuses on user-friendly navigation, clean UI design, and seamless food ordering features. The prototype showcases key screens such as home, menu, cart, and checkout, providing a smooth and intuitive experience for users.</p>
           
-          {/*<div className="flex flex-wrap gap-3 mt-4">
-            <span className="bg-cyan-800 text-amber-50 px-4 py-1 rounded-xl text-sm flex items-center font-semibold">Next.js</span>
-            <span className="bg-cyan-800 text-amber-50 px-4 py-1 rounded-xl text-sm flex items-center font-semibold">JavaScript</span>
+          <div className="flex flex-wrap gap-3 mt-4">
+            <span className="bg-cyan-800 text-amber-50 px-4 py-1 rounded-xl text-sm flex items-center font-semibold">Figma</span>
+            {/*<span className="bg-cyan-800 text-amber-50 px-4 py-1 rounded-xl text-sm flex items-center font-semibold">JavaScript</span>
             <span className="bg-cyan-800 text-amber-50 px-4 py-1 rounded-xl text-sm flex items-center font-semibold">Tailwind CSS</span>
-            <span className="bg-cyan-800 text-amber-50 px-4 py-1 rounded-xl text-sm flex items-center font-semibold">Vercel</span>
-          </div>*/}
+            <span className="bg-cyan-800 text-amber-50 px-4 py-1 rounded-xl text-sm flex items-center font-semibold">Vercel</span>*/}
+          </div>
 
           <div className="flex gap-4 mt-5">
             <a href="https://www.figma.com/proto/RWrX70orgWqzz1s44mOpuS/Foodies?node-id=1-88&p=f&t=rev8xDysHimTNqM6-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A88" target="_blank" className="text-amber-50 hover:text-cyan-300 rounded-2xl text-2xl "><SiFigma /></a>
