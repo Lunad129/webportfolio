@@ -4,7 +4,7 @@ This is my personal portfolio website built using **React**, **Vite**, and **Tai
 
 ## 🔗 Live Demo
 
-🌐 [View Live Website https://webportfolio-9z2c-dx902w9hz-dulanihemachandra.vercel.app/]
+🌐 [View Live Website https://webportfolio-dulanihemachandra.vercel.app/]
 
 ## 📂 Features
 
