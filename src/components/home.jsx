@@ -16,10 +16,10 @@ const home = () => {
         <br></br>
         <br></br>
         <div className="flex space-x-8 text-2xl text-white">
-        <a href="https://github.com/Lunad129"  className="hover:text-cyan-300 transition duration-300 transform hover:scale-110 rounded-full border-4 px-2 py-2" ><FaGithub/></a>
-        <a href="https://www.linkedin.com/in/shashika-dulani" className="hover:text-cyan-300 transition duration-300 transform hover:scale-110 rounded-full border-4 px-2 py-2" ><FaLinkedin/></a>
-        <a href="mailto:shashihemachandra129@gmail.com" className="hover:text-cyan-300 transition duration-300 transform hover:scale-110 rounded-full border-4 px-2 py-2" ><MdEmail/></a>
-        <a href="tel:+940761089923" className="hover:text-cyan-300 transition duration-300 transform hover:scale-110 rounded-full border-4 px-2 py-2"><FaPhone/></a>
+        <a href="https://github.com/Lunad129" target="_blank" className="hover:text-cyan-300 transition duration-300 transform hover:scale-110 rounded-full border-4 px-2 py-2" ><FaGithub/></a>
+        <a href="https://www.linkedin.com/in/shashika-dulani" target="_blank" className="hover:text-cyan-300 transition duration-300 transform hover:scale-110 rounded-full border-4 px-2 py-2" ><FaLinkedin/></a>
+        <a href="mailto:shashihemachandra129@gmail.com" target="_blank" className="hover:text-cyan-300 transition duration-300 transform hover:scale-110 rounded-full border-4 px-2 py-2" ><MdEmail/></a>
+        <a href="tel:+940761089923"  target="_blank" className="hover:text-cyan-300 transition duration-300 transform hover:scale-110 rounded-full border-4 px-2 py-2"><FaPhone/></a>
         </div>
 
         <a href="/QA Intern.pdf"
