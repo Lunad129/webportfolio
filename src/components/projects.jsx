@@ -29,7 +29,7 @@ const projects = () => {
           
           <div className="flex gap-4 mt-5">
             <a href="https://github.com/Lunad129/webportfolio" target="_blank" className="text-amber-50 hover:text-cyan-300 rounded-2xl text-2xl target-blank"><FaGithub /></a>
-            <a href="https://webportfolio-9z2c-dulani-hemachandras-projects.vercel.app/" target="_blank" className="text-amber-50 hover:text-cyan-300 rounded-2xl text-2xl "><IoLink /></a>
+            <a href="https://webportfolio-9z2c-dx902w9hz-dulanihemachandra.vercel.app/" target="_blank" className="text-amber-50 hover:text-cyan-300 rounded-2xl text-2xl "><IoLink /></a>
           </div>
         </div>
 
