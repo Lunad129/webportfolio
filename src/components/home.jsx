@@ -22,7 +22,7 @@ const home = () => {
         <a href="tel:+940761089923" className="hover:text-cyan-300 transition duration-300 transform hover:scale-110 rounded-full border-4 px-2 py-2"><FaPhone/></a>
         </div>
 
-        <a href="/Quality Assurance Engineer intern.pdf"
+        <a href="/QA Intern.pdf"
            download
            className="mt-8 inline-flex items-center gap-3 bg-cyan-950/70 text-heading px-6 py-2 rounded-lg font-semibold shadow hover:bg-accent hover:text-primary  border-2 border- border-cyan-800 transition duration-300 hover:bg-cyan-900/60  hover:border-cyan-700 hover:border-2">
            <FaFileDownload className="text-amber-50 text-2xl" />
